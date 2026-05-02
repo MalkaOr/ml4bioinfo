@@ -1,0 +1,11 @@
+name: sc
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - scanpy
+  - anndata2ri  # This is the "bridge" tool
+  - rpy2
+  - pandas
+  - matplotlib
